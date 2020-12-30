@@ -81,4 +81,4 @@ function reset(){
 }
 
 
-window.setInterval(stopWatch, 0);
+window.setInterval(stopWatch, 1000);
