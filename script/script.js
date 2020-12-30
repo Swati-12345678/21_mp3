@@ -15,7 +15,7 @@ let interval = null;
 let status = "stopped";
 
 //Stopwatch function (logic to determine when to increment next value, etc.)
-function stopwatch(){
+function stopWatch(){
     seconds++;
 
     //Logic to determine when to increment next value
@@ -52,7 +52,7 @@ function stopwatch(){
     }
 
     //Display updated time values to user
-    document.getElementById("display").innerHTML = displayHours+ ":" + diaplayMinutes+ ":" + displaySeconds;
+    document.getElementById("display").innerHTML = displayHours + ":" + diaplayMinutes + ":" + displaySeconds;
 }
 
 
@@ -81,4 +81,4 @@ function reset(){
 }
 
 
-window.setInterval(stopWatch, 1000);
+window.setInterval(stopWatch, 0);
